@@ -1,3 +1,3 @@
 # Face Recognition with Built-in Application
 
-How to Run: [HowToRun.txt] (./HowToRun.txt)
+Application used for face recognization when entering library with register and login featues, read file HowToRun.txt
