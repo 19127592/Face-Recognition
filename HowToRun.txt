@@ -1,19 +1,16 @@
-- Chạy file test.py để hoạt động, train-face để train.
+- Run file test.py, train-face for training.
 
-- Sử dụng hình ảnh một số người nổi tiếng và mặt sinh viên.
+- Use some celebrities and students for traning.
 
-- Vẫn có lỗi ko nhận hoặc nhận ra người khác -> Độ chính xác không cao.
+- Accuracy is low as the dataset is not enough, the model is not well-trained
 
-- Khi register import ảnh, terminal bị đứng chưa khắc phục được, 
-phải kill trước khi chạy tiếp.
+- There is a bug which terminal is freeze after import images, kill the terminate before continuing
 
-- Các hình ảnh cũng như thông tin được lưu trong images_check sau khi đăng kí.
+- The images is saved at images_check.
 
-- Sau khi register xong, phải chạy train-face.py để train các faces 
-đã đăng ký trước khi cho vào hoạt động.
+- After register, run train-face.py to train the model
 
 - Khi Login, xuất hiện cửa sổ Cam để bắt camera thì ta nhìn xuống terminal xem có load student id của người đã đăng kí không.
 Nếu có tức chương trình đang nhận diện đúng, nhấn x để đóng cửa sổ Cam và hoàn tất check in.
 
-- Bởi vì Login sử dụng camera, để đăng nhập được nên em chụp hình các file trong images rồi đưa điện thoại để nhận diện.
-Xem ảnh test_cam_login.jpg để biết thêm chi tiết.
+- When login, a camera window will pop up, get your face before the camera then look at the terminal. If there is your ID on the terminal, the application is doing right.
